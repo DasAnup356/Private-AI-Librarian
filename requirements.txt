@@ -1,0 +1,13 @@
+# core dependencies
+llama-cpp-python==0.3.16
+sentence-transformers
+faiss-cpu
+rank_bm25==0.2.2
+pypdf
+streamlit
+numpy
+tqdm
+psutil
+
+# for gpu support (install separately if you have cuda)
+# torch

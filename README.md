@@ -88,3 +88,5 @@ ui/              # streamlit app
 - Works on CPU but GPU is much faster
 - Needs ~8GB RAM minimum, 16GB recommended
 - Uses BGE-small for embeddings, FAISS for dense search, BM25 for keyword search
+
+Demo: [https://www.kaggle.com/code/dasanupkumar21324008/private-ai-librarian]

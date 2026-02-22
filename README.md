@@ -2,6 +2,8 @@
 
 Offline RAG system for querying documents with a local LLM. Everything runs on your machine, no cloud APIs needed.
 
+This system prioritizes offline reliability and architectural transparency over perfect linguistic polishing. With only 5 PDFs and CPU inference, answers may occasionally include parametric knowledge for off-domain queries. However, for in-domain technical queries, the system demonstrates strong retrieval grounding (confidence 0.93–0.97).
+
 ## What it does
 
 - **Document ingestion**: Loads PDF and text files, extracts text content
